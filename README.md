@@ -43,3 +43,20 @@ Open VM properties > custom fields > Edit custom fields > add            ( see c
 Add values how many daily and weekly backups you want to EVERY virtual machine. With empty fields VM's will not be backed up.
 
 Example of backup files on NFS mount: example-backup-dir.jpg
+
+
+---- IMPORT BACKUP ----
+
+ssh to xenserver host
+
+mount nfs share:
+
+create directory /mount
+
+mount -t nfs 192.168.1.20:/mnt/xenserver /mount
+
+cd /mount/daily/
+
+mount -t nfs 192.168.4.8:/volumes/data2/xenserver /mount
+
+xe vm-import filename=backup-file-name.xva  force=true sr-uuid="destination-SR-UUID" preserve=true
