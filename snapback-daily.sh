@@ -40,7 +40,7 @@ XVA_SR="Server1"
 SUSPEND=0
 POWERSTATE=""
 #NFS Export
-NFS_EXPORT="192.168.1.20:/mnt/xenserver/daily"
+NFS_EXPORT="192.168.1.20:/mnt/backup/xenserver/daily"
 #MOUNT_PATH="/var/run/sr-mount"
 MOUNT_PATH="/backup-daily"
 #LOCKFILE=/tmp/snapback.lock
