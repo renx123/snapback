@@ -17,12 +17,15 @@ create directory /backup-daily
 
 create directory /backup-weekly
 
+create directory /backup-metadata
 
  ---allow write only when mounted ---
 	
  chattr +i /backup-daily 
 	
  chattr +i /backup-weekly
+ 
+ chattr +i /backup-metadata
 	
 	
  create external NFS mount and allow to be mounted from xenserver host
