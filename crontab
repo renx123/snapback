@@ -14,5 +14,4 @@ MAILTO=root
 # *  *  *  *  * user-name  command to be executed
 1 1 * * 0-5 root /opt/snapback-daily.sh > /var/log/snapback.log 2>&1
 1 1 * * 6 root /opt/snapback-weekly.sh > /var/log/snapback.log 2>&1
-1 1 * * * root /opt/metadata.sh
 
