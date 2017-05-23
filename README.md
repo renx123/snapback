@@ -27,7 +27,7 @@ create directory /backup-weekly
 	
  create external NFS mount and allow to be mounted from xenserver host
 	
- Replicate above to all Xenserver hosts if needed. All backups will be inside the same nfs mounted folder. So it's possible to mobe VM's between hosts without affecting backup setup.
+ Replicate above to all Xenserver hosts if needed. All backups will be inside the same nfs mounted folder. So it's possible to move VM's between hosts without affecting backup setup.
 
 --- Add custom fields to Xencenter --
 
