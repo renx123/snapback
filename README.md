@@ -53,7 +53,7 @@ mount nfs share:
 
 create directory /mount
 
-mount -t nfs 192.168.1.20:/mnt/xenserver /mount
+mount -t nfs 192.168.1.20:/mnt/backup/xenserver /mount
 
 cd /mount/daily/
 
