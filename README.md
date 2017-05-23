@@ -57,6 +57,4 @@ mount -t nfs 192.168.1.20:/mnt/xenserver /mount
 
 cd /mount/daily/
 
-mount -t nfs 192.168.4.8:/volumes/data2/xenserver /mount
-
 xe vm-import filename=backup-file-name.xva  force=true sr-uuid="destination-SR-UUID" preserve=true
