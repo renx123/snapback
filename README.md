@@ -5,7 +5,7 @@ Exports .xva files to NFS mount
 
 Setup:
 
--- ssh to xenserver host --
+-- ssh/sftp to xenserver host --
 
 copy snapback-daily.sh to /opt/
 
